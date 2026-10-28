@@ -1,0 +1,32 @@
+body {
+
+font-family: Arial, sans-serif;
+
+line-height: 1.8;
+
+color: #0241ec;
+
+max-width: 500px;
+
+margin: 0 auto;
+
+padding: 30px;
+
+}
+
+h2 {
+
+color: #2c3e50;
+
+border-bottom: 5px;
+
+padding-bottom: 10px;
+
+}
+
+a:hover{
+color: red;
+
+text-decoration: none;
+
+}
