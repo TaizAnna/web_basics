@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя перша HTML-форма</title>
+</head>
+<body>
+
+<h1>Моя перша HTML-форма</h1>
+<form action="https://httpbin.org/post" method="Post">
+    <div>
+        <label for="username">Ім'я:</label>
+        <input type="text" id="username" name="usersname">
+    </div>
+    <br>
+    <div>
+        <label for="birthdate">Дата народження:</label>
+        <input type="date" id="birthdate" name="userbirthdate">
+    </div>
+    <br>
+    <div>
+        <label for="email">Імейл:</label>
+        <input type="email" id="email" name="useremail">
+    </div>
+    <br>
+    <div>
+        <label for="message">Повідомлення:</label>
+        <textarea id="message" name="usermessage"></textarea>
+    </div>
+    <br><br>
+    
+   <div>
+      <p>Ваші улюблені напої?</p>
+      <input type="checkbox" id="coffee" name="drinks" value="coffee" />
+      <label for="coffee">Кава</label>
+
+      <input type="checkbox" id="tea" name="drinks" value="tea" />
+      <label for="tea">Чай</label>
+
+      <input type="checkbox" id="juice" name="drinks" value="juice" />
+      <label for="juice">Сік</label>
+
+      <input type="checkbox" id="water" name="drinks" value="water" />
+      <label for="water">Вода</label>
+    </div>
+    <br />
+    <div>
+      <p>Моя національність</p>
+      <input type="radio" id="ukrainian" name="nationality" value="ukrainian" />
+      <label for="ukrainian">Українець</label>
+
+      <input type="radio" id="hungarian" name="nationality" value="hungarian" />
+      <label for="hungarian">Угорець</label>
+
+      <input type="radio" id="slovak" name="nationality" value="slovak" />
+      <label for="slovak">Словак</label>
+    </div>
+  <br>
+  <button type="submit">Надіслати</button>
+    <button type="reset">Очистити</button>
+  <br> 
+</form>
+  
+  <picture>
+    <source media="(max-width: 467px)" srcset="https://placehold.co/300x500">
+    <img src="https://placehold.co/1000x400" alt="Демонстративне зображення">
+  </picture>
+</body>
+</html>
